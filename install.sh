@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install script for Vagrant dev
+# Remiii 2012/11/17
 
 # GUI
 # TODO
@@ -30,24 +31,26 @@ ntpdate fr.pool.ntp.org
 /etc/init.d/ntp star
 
 # PHP, Apache and MySQL
-apt-get install -y apache2 
-apt-get install -y apache2-utils 
-apt-get install -y php5 
+apt-get install -y apache2
+apt-get install -y apache2-utils
+apt-get install -y php5
 apt-get install -y php5-cli
-apt-get install -y php5-dev 
+apt-get install -y php5-dev
 apt-get install -y php5-gd
 apt-get install -y apache2.2-common
 apt-get install -y phpmyadmin
 apt-get install -y mysql-server
 apt-get install -y php5-mysql
 
+# Ruby
 apt-get install -y ruby ruby-dev
 
-# Postfix
+# Mailutils and Postfix
 apt-get install -y postfix
+apt-get install -y mailutils
 
 # ZSH
-# TODO
+apt-get install -y zsh
 
 # Config
 sed -i "s~memory_limit = 128M~memory_limit = 256M~g" /etc/php5/apache2/php.ini
