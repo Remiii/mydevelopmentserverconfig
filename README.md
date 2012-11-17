@@ -17,7 +17,7 @@ $ git clone git@github.com:Remiii/server-dev-config.git
 * Install
 
 ```bash
-$ sudo ./server-dev-config
+$ sudo ./install.sh
 ```
 
 ## See also
