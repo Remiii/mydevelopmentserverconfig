@@ -26,7 +26,7 @@ TODO
 
 ## License
 
-server-dev-config is licensed under the MIT license.
+server-dev-config is licensed under the MIT license (see LICENSE.md file).
 
 ## Author
 
