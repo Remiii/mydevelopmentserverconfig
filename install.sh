@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install script for Vagrant dev
-# Remiii 2012/11/17
+# Remiii 2012/11/24
 
 # GUI
 # TODO
@@ -51,6 +51,8 @@ apt-get install -y mailutils
 
 # ZSH
 apt-get install -y zsh
+
+apt-get install -y xclip
 
 # Config
 sed -i "s~memory_limit = 128M~memory_limit = 256M~g" /etc/php5/apache2/php.ini
