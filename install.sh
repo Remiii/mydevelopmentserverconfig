@@ -45,6 +45,9 @@ apt-get install -y php5-mysql
 # Ruby
 apt-get install -y ruby ruby-dev
 
+# Java
+apt-get install -y openjdk-7-jre
+
 # Mailutils and Postfix
 apt-get install -y postfix
 apt-get install -y mailutils
