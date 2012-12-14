@@ -38,9 +38,9 @@ apt-get install -y php5-cli
 apt-get install -y php5-dev
 apt-get install -y php5-gd
 apt-get install -y apache2.2-common
-apt-get install -y phpmyadmin
 apt-get install -y mysql-server
 apt-get install -y php5-mysql
+apt-get install -y phpmyadmin
 
 # Ruby
 apt-get install -y ruby ruby-dev
