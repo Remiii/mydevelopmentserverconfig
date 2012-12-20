@@ -42,6 +42,9 @@ apt-get install -y mysql-server
 apt-get install -y php5-mysql
 apt-get install -y phpmyadmin
 
+# PHP APC
+apt-get install -y php-apc
+
 # Ruby
 apt-get install -y ruby ruby-dev
 
