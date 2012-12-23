@@ -60,14 +60,6 @@ apt-get install -y zsh
 
 apt-get install -y xclip
 
-# Webmin
-wget -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add -
-echo ""
-echo "Add by Remiii"
-echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
-apt-get update
-apt-get install webmin
-
 # Config
 sed -i "s~memory_limit = 128M~memory_limit = 256M~g" /etc/php5/apache2/php.ini
 
