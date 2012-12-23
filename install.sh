@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install script for Vagrant dev
-# Remiii 2012/11/24
+# Remiii 2012/12/23
 
 # GUI
 # TODO
@@ -54,6 +54,11 @@ apt-get install -y openjdk-7-jre
 # Mailutils and Postfix
 apt-get install -y postfix
 apt-get install -y mailutils
+
+# Munin
+apt-get install munin munin-node munin-plugins-extra
+/etc/init.d/munin-node restart
+#ln -s /var/cache/munin/www /var/www/munin
 
 # ZSH
 apt-get install -y zsh
