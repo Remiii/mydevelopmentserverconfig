@@ -64,6 +64,10 @@ apt-get install munin munin-node munin-plugins-extra
 # ZSH
 apt-get install -y zsh
 
+# Python
+apt-get install python-pip
+sudo easy_install awscli                                # AWS CLI
+
 apt-get install -y xclip
 
 # Config
