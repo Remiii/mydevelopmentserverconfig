@@ -73,6 +73,10 @@ apt-get install -y xclip
 # Config
 sed -i "s~memory_limit = 128M~memory_limit = 256M~g" /etc/php5/apache2/php.ini
 
+# Jekyll Ruby
+apt-get install -y ruby1.9.1-dev
+gem install jekyll
+
 # GUI GitHub
 echo 'Set GitHub account'
 echo 'cf. https://help.github.com/articles/set-up-git'
