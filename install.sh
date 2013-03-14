@@ -8,7 +8,7 @@
 
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install -y vim htop git-core curl acl pure-ftpd ruby ntp htop tig
+sudo apt-get install -y vim htop git-core curl acl pure-ftpd ruby ntp htop tig tmux screen
 sudo a2enmod rewrite
 sudo useradd -m -d /home/website -s /bin/bash website
 sudo passwd website
