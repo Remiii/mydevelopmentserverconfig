@@ -9,7 +9,6 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y vim htop git-core curl acl pure-ftpd ruby ntp htop tig tmux screen
-sudo a2enmod rewrite
 sudo useradd -m -d /home/website -s /bin/bash website
 sudo passwd website
 sudo groupadd website
@@ -33,6 +32,7 @@ ntpdate fr.pool.ntp.org
 # PHP, Apache and MySQL
 apt-get install -y apache2
 apt-get install -y apache2-utils
+sudo a2enmod rewrite
 apt-get install -y php5
 apt-get install -y php5-cli
 apt-get install -y php5-dev
