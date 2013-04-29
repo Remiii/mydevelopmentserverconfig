@@ -27,7 +27,7 @@ sudo update-alternatives --config editor
 echo -e 'Configuration NTP'
 /etc/init.d/ntp stop
 ntpdate fr.pool.ntp.org
-/etc/init.d/ntp star
+/etc/init.d/ntp start
 
 # PHP, Apache and MySQL
 apt-get install -y apache2
